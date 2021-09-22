@@ -62,11 +62,17 @@ a{
     margin-right: 0;
 }
 
+.header-links  a:focus{
+    opacity: 0.6;
+}
+
  .logo-text {
     margin-left: 16px;
     color: #DE2E54;
-    
-    
+}
+
+.logo-text:focus{
+    opacity: 0.6;
 }
 
 .btn-white{
@@ -86,6 +92,10 @@ a{
 .btn-white:hover{
    background-color: #DE2E54; 
    color: #fff;
+}
+
+.btn-white:focus{
+    opacity: 0.6;
 }
 
 /*HERO STYLE*/
